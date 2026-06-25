@@ -208,8 +208,19 @@ body {
 /* --- CROSS PROMO SECTION --- */
 .cross-promo {
   padding: 40px 0 100px 0;
-  display: flex;
-  justify-content: center;
+}
+
+.promo-header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: var(--text-main);
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 24px;
 }
 
 .promo-card {
